@@ -3,7 +3,7 @@ const clearBtn = document.getElementById("clear-Btn")
 
 function createDiv(divs){
     const width = ((960/ Math.sqrt(divs)) / 960)*100;
-    console.log(width)
+    
     for (let i = 1; i <= divs; i++){
         const newDiv = document.createElement("div");
         newDiv.classList.add("grid-Div")
