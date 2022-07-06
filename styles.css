@@ -1,17 +1,20 @@
 .container {
-    border: 5px solid blue;
-    height:500px;
-    width: 500px;
+    border: 5px solid mediumslateblue;
+    height:960px;
+    width: 960px;
     margin: auto;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-evenly;  
 }
 
 .grid-Div {
-    border: 1px solid green;
-    width: 5.5%;
-    height: 5.5%;
+    /* border: 1px solid black;
+    width: 6%; */
     flex: 1 1 auto;
+}
+
+.grid-Div:hover {
+    background-color: plum;
 }
