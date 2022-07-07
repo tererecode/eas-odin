@@ -12,12 +12,11 @@ function createDiv(divs){
     
     for (let i = 1; i <= divs; i++){
         const newDiv = document.createElement("div");
-        newDiv.classList.add("grid-Div")
-        //newDiv.textContent= i;
         newDiv.setAttribute("onmouseover", "activatedSingleColor(this)")
         
         //Alternative style where random color is applied every mouseover event
         //newDiv.setAttribute("onmouseover", "activatedMultiColor(this)")
+        
         newDiv.style.width = `${width}%`
         container.appendChild(newDiv)
 
